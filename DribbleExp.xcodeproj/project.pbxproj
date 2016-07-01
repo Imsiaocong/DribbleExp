@@ -1,0 +1,530 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		016A18271D22B2CB00B8C65D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 016A18261D22B2CB00B8C65D /* AppDelegate.swift */; };
+		016A18291D22B2CB00B8C65D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 016A18281D22B2CB00B8C65D /* ViewController.swift */; };
+		016A182C1D22B2CB00B8C65D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 016A182A1D22B2CB00B8C65D /* Main.storyboard */; };
+		016A182E1D22B2CB00B8C65D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 016A182D1D22B2CB00B8C65D /* Assets.xcassets */; };
+		016A18311D22B2CB00B8C65D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 016A182F1D22B2CB00B8C65D /* LaunchScreen.storyboard */; };
+		016A183C1D22B2CB00B8C65D /* DribbleExpTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 016A183B1D22B2CB00B8C65D /* DribbleExpTests.swift */; };
+		016A18471D22B2CB00B8C65D /* DribbleExpUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 016A18461D22B2CB00B8C65D /* DribbleExpUITests.swift */; };
+		017A11851D23A62B009AFF49 /* CLTypingLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 017A11841D23A62B009AFF49 /* CLTypingLabel.swift */; };
+		01DA945F1D2549E600070BE9 /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01DA945E1D2549E600070BE9 /* CollectionViewCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		016A18381D22B2CB00B8C65D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 016A181B1D22B2CB00B8C65D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 016A18221D22B2CB00B8C65D;
+			remoteInfo = DribbleExp;
+		};
+		016A18431D22B2CB00B8C65D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 016A181B1D22B2CB00B8C65D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 016A18221D22B2CB00B8C65D;
+			remoteInfo = DribbleExp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		016A18231D22B2CB00B8C65D /* DribbleExp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DribbleExp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		016A18261D22B2CB00B8C65D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		016A18281D22B2CB00B8C65D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		016A182B1D22B2CB00B8C65D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		016A182D1D22B2CB00B8C65D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		016A18301D22B2CB00B8C65D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		016A18321D22B2CB00B8C65D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		016A18371D22B2CB00B8C65D /* DribbleExpTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DribbleExpTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		016A183B1D22B2CB00B8C65D /* DribbleExpTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DribbleExpTests.swift; sourceTree = "<group>"; };
+		016A183D1D22B2CB00B8C65D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		016A18421D22B2CB00B8C65D /* DribbleExpUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DribbleExpUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		016A18461D22B2CB00B8C65D /* DribbleExpUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DribbleExpUITests.swift; sourceTree = "<group>"; };
+		016A18481D22B2CB00B8C65D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		017A11841D23A62B009AFF49 /* CLTypingLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CLTypingLabel.swift; sourceTree = "<group>"; };
+		01DA945E1D2549E600070BE9 /* CollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		016A18201D22B2CB00B8C65D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		016A18341D22B2CB00B8C65D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		016A183F1D22B2CB00B8C65D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		016A181A1D22B2CA00B8C65D = {
+			isa = PBXGroup;
+			children = (
+				017A11861D23A6F8009AFF49 /* Supports */,
+				016A18251D22B2CB00B8C65D /* DribbleExp */,
+				016A183A1D22B2CB00B8C65D /* DribbleExpTests */,
+				016A18451D22B2CB00B8C65D /* DribbleExpUITests */,
+				016A18241D22B2CB00B8C65D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		016A18241D22B2CB00B8C65D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				016A18231D22B2CB00B8C65D /* DribbleExp.app */,
+				016A18371D22B2CB00B8C65D /* DribbleExpTests.xctest */,
+				016A18421D22B2CB00B8C65D /* DribbleExpUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		016A18251D22B2CB00B8C65D /* DribbleExp */ = {
+			isa = PBXGroup;
+			children = (
+				016A18261D22B2CB00B8C65D /* AppDelegate.swift */,
+				016A18281D22B2CB00B8C65D /* ViewController.swift */,
+				01DA945E1D2549E600070BE9 /* CollectionViewCell.swift */,
+				016A182A1D22B2CB00B8C65D /* Main.storyboard */,
+				016A182D1D22B2CB00B8C65D /* Assets.xcassets */,
+				016A182F1D22B2CB00B8C65D /* LaunchScreen.storyboard */,
+				016A18321D22B2CB00B8C65D /* Info.plist */,
+			);
+			path = DribbleExp;
+			sourceTree = "<group>";
+		};
+		016A183A1D22B2CB00B8C65D /* DribbleExpTests */ = {
+			isa = PBXGroup;
+			children = (
+				016A183B1D22B2CB00B8C65D /* DribbleExpTests.swift */,
+				016A183D1D22B2CB00B8C65D /* Info.plist */,
+			);
+			path = DribbleExpTests;
+			sourceTree = "<group>";
+		};
+		016A18451D22B2CB00B8C65D /* DribbleExpUITests */ = {
+			isa = PBXGroup;
+			children = (
+				016A18461D22B2CB00B8C65D /* DribbleExpUITests.swift */,
+				016A18481D22B2CB00B8C65D /* Info.plist */,
+			);
+			path = DribbleExpUITests;
+			sourceTree = "<group>";
+		};
+		017A11861D23A6F8009AFF49 /* Supports */ = {
+			isa = PBXGroup;
+			children = (
+				017A11841D23A62B009AFF49 /* CLTypingLabel.swift */,
+			);
+			name = Supports;
+			path = DribbleExp;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		016A18221D22B2CB00B8C65D /* DribbleExp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 016A184B1D22B2CB00B8C65D /* Build configuration list for PBXNativeTarget "DribbleExp" */;
+			buildPhases = (
+				016A181F1D22B2CB00B8C65D /* Sources */,
+				016A18201D22B2CB00B8C65D /* Frameworks */,
+				016A18211D22B2CB00B8C65D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DribbleExp;
+			productName = DribbleExp;
+			productReference = 016A18231D22B2CB00B8C65D /* DribbleExp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		016A18361D22B2CB00B8C65D /* DribbleExpTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 016A184E1D22B2CB00B8C65D /* Build configuration list for PBXNativeTarget "DribbleExpTests" */;
+			buildPhases = (
+				016A18331D22B2CB00B8C65D /* Sources */,
+				016A18341D22B2CB00B8C65D /* Frameworks */,
+				016A18351D22B2CB00B8C65D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				016A18391D22B2CB00B8C65D /* PBXTargetDependency */,
+			);
+			name = DribbleExpTests;
+			productName = DribbleExpTests;
+			productReference = 016A18371D22B2CB00B8C65D /* DribbleExpTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		016A18411D22B2CB00B8C65D /* DribbleExpUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 016A18511D22B2CB00B8C65D /* Build configuration list for PBXNativeTarget "DribbleExpUITests" */;
+			buildPhases = (
+				016A183E1D22B2CB00B8C65D /* Sources */,
+				016A183F1D22B2CB00B8C65D /* Frameworks */,
+				016A18401D22B2CB00B8C65D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				016A18441D22B2CB00B8C65D /* PBXTargetDependency */,
+			);
+			name = DribbleExpUITests;
+			productName = DribbleExpUITests;
+			productReference = 016A18421D22B2CB00B8C65D /* DribbleExpUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		016A181B1D22B2CB00B8C65D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "王笛iOS.Inc";
+				TargetAttributes = {
+					016A18221D22B2CB00B8C65D = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = NUBREAZ25J;
+					};
+					016A18361D22B2CB00B8C65D = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = NUBREAZ25J;
+						TestTargetID = 016A18221D22B2CB00B8C65D;
+					};
+					016A18411D22B2CB00B8C65D = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = NUBREAZ25J;
+						TestTargetID = 016A18221D22B2CB00B8C65D;
+					};
+				};
+			};
+			buildConfigurationList = 016A181E1D22B2CB00B8C65D /* Build configuration list for PBXProject "DribbleExp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 016A181A1D22B2CA00B8C65D;
+			productRefGroup = 016A18241D22B2CB00B8C65D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				016A18221D22B2CB00B8C65D /* DribbleExp */,
+				016A18361D22B2CB00B8C65D /* DribbleExpTests */,
+				016A18411D22B2CB00B8C65D /* DribbleExpUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		016A18211D22B2CB00B8C65D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				016A18311D22B2CB00B8C65D /* LaunchScreen.storyboard in Resources */,
+				016A182E1D22B2CB00B8C65D /* Assets.xcassets in Resources */,
+				016A182C1D22B2CB00B8C65D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		016A18351D22B2CB00B8C65D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		016A18401D22B2CB00B8C65D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		016A181F1D22B2CB00B8C65D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				017A11851D23A62B009AFF49 /* CLTypingLabel.swift in Sources */,
+				016A18291D22B2CB00B8C65D /* ViewController.swift in Sources */,
+				01DA945F1D2549E600070BE9 /* CollectionViewCell.swift in Sources */,
+				016A18271D22B2CB00B8C65D /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		016A18331D22B2CB00B8C65D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				016A183C1D22B2CB00B8C65D /* DribbleExpTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		016A183E1D22B2CB00B8C65D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				016A18471D22B2CB00B8C65D /* DribbleExpUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		016A18391D22B2CB00B8C65D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 016A18221D22B2CB00B8C65D /* DribbleExp */;
+			targetProxy = 016A18381D22B2CB00B8C65D /* PBXContainerItemProxy */;
+		};
+		016A18441D22B2CB00B8C65D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 016A18221D22B2CB00B8C65D /* DribbleExp */;
+			targetProxy = 016A18431D22B2CB00B8C65D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		016A182A1D22B2CB00B8C65D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				016A182B1D22B2CB00B8C65D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		016A182F1D22B2CB00B8C65D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				016A18301D22B2CB00B8C65D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		016A18491D22B2CB00B8C65D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		016A184A1D22B2CB00B8C65D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		016A184C1D22B2CB00B8C65D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DribbleExp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = None.DribbleExp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "";
+			};
+			name = Debug;
+		};
+		016A184D1D22B2CB00B8C65D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DribbleExp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = None.DribbleExp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "";
+			};
+			name = Release;
+		};
+		016A184F1D22B2CB00B8C65D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DribbleExpTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = None.DribbleExpTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DribbleExp.app/DribbleExp";
+			};
+			name = Debug;
+		};
+		016A18501D22B2CB00B8C65D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DribbleExpTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = None.DribbleExpTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DribbleExp.app/DribbleExp";
+			};
+			name = Release;
+		};
+		016A18521D22B2CB00B8C65D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = DribbleExpUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = None.DribbleExpUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = DribbleExp;
+			};
+			name = Debug;
+		};
+		016A18531D22B2CB00B8C65D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = DribbleExpUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = None.DribbleExpUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = DribbleExp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		016A181E1D22B2CB00B8C65D /* Build configuration list for PBXProject "DribbleExp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				016A18491D22B2CB00B8C65D /* Debug */,
+				016A184A1D22B2CB00B8C65D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		016A184B1D22B2CB00B8C65D /* Build configuration list for PBXNativeTarget "DribbleExp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				016A184C1D22B2CB00B8C65D /* Debug */,
+				016A184D1D22B2CB00B8C65D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		016A184E1D22B2CB00B8C65D /* Build configuration list for PBXNativeTarget "DribbleExpTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				016A184F1D22B2CB00B8C65D /* Debug */,
+				016A18501D22B2CB00B8C65D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		016A18511D22B2CB00B8C65D /* Build configuration list for PBXNativeTarget "DribbleExpUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				016A18521D22B2CB00B8C65D /* Debug */,
+				016A18531D22B2CB00B8C65D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 016A181B1D22B2CB00B8C65D /* Project object */;
+}
